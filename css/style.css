@@ -74,4 +74,17 @@ a {
     text-align: center;
 }
 
+.productItem p:nth-child(2) {
+    color: #77abf5;
+}
+
+.productItem p:nth-child(3) {
+    color: #b5b5b5;
+}
+
+
+
+/* SHOPPING CART SECTION */
+
+
 
