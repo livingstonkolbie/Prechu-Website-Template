@@ -87,4 +87,34 @@ a {
 /* SHOPPING CART SECTION */
 
 
+.shoppingBlog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shoppingBlog p:nth-child(1) {
+    margin: 8% 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: #66686a;
+}
+
+.shoppingBlog img {
+    width: 100%;
+}
+
+.shoppingBlog p:nth-child(3) {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #66686a;
+}
+
+.shoppingBlog p:nth-child(4) {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4% 5%;
+    line-height: 135%;
+    color: #b1b1b1;
+}
+
 
