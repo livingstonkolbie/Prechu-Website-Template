@@ -105,6 +105,13 @@ a {
     color: #b5b5b5;
 }
 
+@media (min-width: 1024px) {
+    .products {
+        display: flex;
+        margin: 0 7%;
+    }
+
+}
 
 
 /* SHOPPING CART SECTION */
