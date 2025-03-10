@@ -95,6 +95,8 @@ a {
     padding: 0 77px;
     margin: 1%;
     text-align: center;
+    width: 96%;
+    font-size: small;
 }
 
 .productItem p:nth-child(2) {
@@ -113,6 +115,11 @@ a {
 
     .productItem img {
         width: 67%
+    }
+
+    .productItem p:nth-child(3) {
+    color: #b5b5b5;
+    padding: 0 16px;
     }
 }
 
@@ -146,19 +153,37 @@ a {
 .blogRightSide p:nth-child(1) {
     margin-left: 4%;
     text-align: left;
+    font-size: smaller;
 }
 
 .blogRightSide p:nth-child(2) {
     font-family: Arial, Helvetica, sans-serif;
     padding: 4% 5%;
-    font-size: 1rem;
-    line-height: 130%;
+    font-size: small;
+    line-height: 175%;
     color: #b1b1b1;
 }
 
 @media (min-width: 1020px) {
-   
+   .shoppingBlog {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+   }
 
+   .blogLeftSide {
+        width: 32%;
+        text-align: center;
+   }
+
+   .blogRightSide {
+        width: 43%;
+   }
+
+   .blogRightSide p:nth-child(2) {
+        font-size: 55%;
+        line-height: 184%;
+   }
 }
 
 
@@ -178,4 +203,13 @@ footer {
 footer p {
     padding-top: 2%;
     color: #b1b1b1;
+    font-size: smaller;
+}
+
+@media (min-width: 1024px) {
+    
+    footer {
+        height: 63px;
+        /* font-size: smaller; */
+    }
 }
