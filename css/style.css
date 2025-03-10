@@ -111,6 +111,9 @@ a {
         margin: 0 7%;
     }
 
+    .productItem img {
+        width: 67%
+    }
 }
 
 
@@ -123,7 +126,7 @@ a {
     align-items: center;
 }
 
-.shoppingBlog p:nth-child(1) {
+.blogLeftSide p {
     margin: 8% 0 0 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
@@ -134,17 +137,28 @@ a {
     width: 100%;
 }
 
-.shoppingBlog p:nth-child(3) {
+.blogRightSide {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     color: #66686a;
 }
 
-.shoppingBlog p:nth-child(4) {
+.blogRightSide p:nth-child(1) {
+    margin-left: 4%;
+    text-align: left;
+}
+
+.blogRightSide p:nth-child(2) {
     font-family: Arial, Helvetica, sans-serif;
     padding: 4% 5%;
-    line-height: 135%;
+    font-size: 1rem;
+    line-height: 130%;
     color: #b1b1b1;
+}
+
+@media (min-width: 1020px) {
+   
+
 }
 
 
