@@ -24,8 +24,8 @@ nav li {
 
 a {
     text-decoration: none;
-    color: #818181;
     font-family: Arial, Helvetica, sans-serif;
+    color: #818181;
 }
 
 .logo {
@@ -63,14 +63,13 @@ a {
 
 
 
-
 /* HERO SECTION */
 
 
 
 .heroSection img {
-    margin-top: 4%;
     width: 100%;
+    margin-top: 4%;
 }
 
 @media (min-width: 1024px) {
@@ -78,6 +77,7 @@ a {
         margin-top: 0;
     }
 }
+
 
 
 /* PRODUCTS SECTION */
@@ -92,10 +92,10 @@ a {
 }
 
 .productItem p {
+    width: 96%;
     padding: 0 77px;
     margin: 1%;
     text-align: center;
-    width: 96%;
     font-size: small;
 }
 
@@ -117,14 +117,20 @@ a {
         width: 67%
     }
 
+    .test {
+        padding-top: 3%;
+    }
+
     .productItem p:nth-child(3) {
-    color: #b5b5b5;
-    padding: 0 16px;
+        padding: 0 16px;
+        color: #b5b5b5;
     }
 }
 
 
+
 /* SHOPPING CART SECTION */
+
 
 
 .shoppingBlog {
@@ -202,14 +208,13 @@ footer {
 
 footer p {
     padding-top: 2%;
-    color: #b1b1b1;
     font-size: smaller;
+    color: #b1b1b1;
 }
 
 @media (min-width: 1024px) {
     
     footer {
         height: 63px;
-        /* font-size: smaller; */
     }
 }
